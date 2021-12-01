@@ -2,6 +2,7 @@ from visual_kinematics.Frame import *
 from numpy import pi
 from abc import abstractmethod
 import matplotlib.pyplot as plt
+from mpl_toolkits import mplot3d #Added on 2021.12.01. W/o this line, I get "ValueError: Unknown projection '3d'" error.
 
 
 class Robot(object):
