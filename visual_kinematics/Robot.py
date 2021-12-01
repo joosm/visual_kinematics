@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 
 from mpl_toolkits import mplot3d #Added on 2021.12.01. W/o this line, I get "ValueError: Unknown projection '3d'" error.
 #Ref. https://stackoverflow.com/questions/3810865/matplotlib-unknown-projection-3d-error
+#~/Software/anaconda3/envs/py365/lib/python3.6/site-packages/visual_kinematics에서 수정해야 함(pip으로 설치했기 때문에)
 
 class Robot(object):
     # ================== Definition and Kinematics
